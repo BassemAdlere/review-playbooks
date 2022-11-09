@@ -1,0 +1,6 @@
+[ftpclients]
+serverc.lab.example.com
+
+[ftpservers]
+serverd.lab.example.com
+serverb.lab.example.com

@@ -1,0 +1,9 @@
+---
+- name: Ensure FTP Client Configuration
+  hosts: ftpclients
+  tasks:
+
+  - name: latest ftp version
+    yum:
+      name: lftp
+      state: latest
